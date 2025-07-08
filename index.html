@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -8,12 +9,15 @@
       background-color: #1e1e1e;
       color: #e6e3dc;
       font-family: 'Courier New', Courier, monospace;
-      padding: 40px 5vw 40px 5vw;
+      margin: 0;
+      padding: 40px 5vw;
       box-sizing: border-box;
+      max-width: 100%;
     }
     h1 {
       font-size: 3rem;
       margin-bottom: 10px;
+      word-break: break-word;
     }
     h2 {
       font-size: 1.5rem;
@@ -29,6 +33,7 @@
     th, td {
       padding: 14px 20px;
       text-align: left;
+      word-break: break-word;
     }
     th {
       background-color: #3a3a3a;
@@ -45,9 +50,30 @@
       text-decoration: none;
       font-family: monospace;
       display: inline-block;
+      max-width: 100%;
+      overflow-wrap: break-word;
     }
     a:hover {
       background-color: #555;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 4vw;
+      }
+      h1 {
+        font-size: 2rem;
+      }
+      h2 {
+        font-size: 1.2rem;
+      }
+      th, td {
+        padding: 10px 12px;
+        font-size: 0.9rem;
+      }
+      a {
+        font-size: 0.9rem;
+      }
     }
   </style>
 </head>
@@ -65,19 +91,19 @@
     <tbody>
       <tr>
         <td>PROGRESS UPDATE</td>
-        <td><a href="https://docs.google.com/spreadsheets/u/0/d/1Ap_jvhbd00HclKsjcgNz4GyaTIVNCKaPdqZ9HH8G928/edit">Pertanyaan dan serba-serbi Ternak Lele</a></td>
+        <td>📊 <a href="https://docs.google.com/spreadsheets/u/0/d/1Ap_jvhbd00HclKsjcgNz4GyaTIVNCKaPdqZ9HH8G928/edit">Pertanyaan dan serba-serbi Ternak Lele</a></td>
       </tr>
       <tr>
         <td>BUSINESS PLAN</td>
-        <td><a href="https://docs.google.com/document/u/0/d/1S7ZxjLys1tqJOE66xMjiGKf-z1Icvn2l-SfRgnFlgU4/edit">Business Plan Budidaya Lele</a></td>
+        <td>📘 <a href="https://docs.google.com/document/u/0/d/1S7ZxjLys1tqJOE66xMjiGKf-z1Icvn2l-SfRgnFlgU4/edit">Business Plan Budidaya Lele</a></td>
       </tr>
       <tr>
         <td>PITCHING TERNAK LELE</td>
-        <td><a href="https://docs.google.com/document/u/0/d/14dGs88M-MRJDxxWkcrcEGXrNodWkF_zKaGc4xFQjhQI/edit">Pitching Ternak Lele</a></td>
+        <td>🗂️ <a href="https://docs.google.com/document/u/0/d/14dGs88M-MRJDxxWkcrcEGXrNodWkF_zKaGc4xFQjhQI/edit">Pitching Ternak Lele</a></td>
       </tr>
       <tr>
         <td>PROYEKSI LELE</td>
-        <td><a href="https://docs.google.com/spreadsheets/u/0/d/1O7l8T3-ycTOvzoKPILLJBc1dCHWd8tCRELa5aVKXxGA/edit">Ternak_Lele_Projection</a></td>
+        <td>📊 <a href="https://docs.google.com/spreadsheets/u/0/d/1O7l8T3-ycTOvzoKPILLJBc1dCHWd8tCRELa5aVKXxGA/edit">Ternak_Lele_Projection</a></td>
       </tr>
     </tbody>
   </table>
